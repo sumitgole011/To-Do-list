@@ -106,6 +106,12 @@ To-Do-list/
 
 **Note:** Saved tasks are stored in the current browser's Local Storage, not in an online database. They are not automatically synchronized across devices.
 
+## 🧹 Resetting Saved Data
+
+Tasks and theme preferences are saved locally in your browser. To start fresh, open your browser's developer tools, go to the **Application** (or **Storage**) panel, and clear the Local Storage for the page's origin. Reload the page afterward.
+
+**Warning:** Clearing this storage removes the saved tasks and theme preferences for this app in that browser. This cannot be undone unless you have a separate backup. Browser menu names may vary.
+
 ## 🧠 Concepts Demonstrated
 
 - HTML page structure and semantic elements

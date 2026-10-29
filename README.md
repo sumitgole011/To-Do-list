@@ -26,7 +26,7 @@ Built using core web technologies, this project demonstrates DOM manipulation, e
 - 🗑️ **Delete Tasks:** Remove tasks that are no longer needed.
 - 💾 **Local Storage:** Retains saved tasks and theme preferences in the browser.
 - 🎨 **Theme Customization:** Switch between standard, light, and darker themes.
-- 🕒 **Live Date and Time:** Displays the current date and time.
+- 🕒 **Date and Time on Load:** Shows the date and time when the page opens; the display does not update continuously.
 - 📱 **Responsive Interface:** Designed to work across different screen sizes.
 - ✨ **Interactive UI:** Includes task action buttons, icons, and visual transitions.
 
@@ -105,6 +105,8 @@ To-Do-list/
 6. Refresh the page to see tasks and theme preferences restored from browser storage.
 
 **Note:** Saved tasks are stored in the current browser's Local Storage, not in an online database. They are not automatically synchronized across devices.
+
+**Current limitation:** Only task text is saved. Completed/checkmark status is not stored, so completed tasks appear unchecked after a page reload.
 
 ## 🧹 Resetting Saved Data
 

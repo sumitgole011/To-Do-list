@@ -136,7 +136,11 @@ Tasks and theme preferences are saved locally in your browser. To start fresh, o
 - ☁️ Add user authentication and cloud synchronization.
 - 📱 Improve the mobile experience with additional UI refinements.
 
-## 👨‍💻 Author
+## 🙏 Original Project and Credits
+
+This repository contains the To-Do List project originally published at [lordwill1/todo-list](https://github.com/lordwill1/todo-list). The included application's GitHub corner links to that upstream repository, and the bundled [`AUTHORS`](todo-list-master/todo-list-master/AUTHORS) file records its original contributors. The root README provides documentation for this repository's copy.
+
+## 👨‍💻 Repository Maintainer
 
 **Sumit Gole**
 

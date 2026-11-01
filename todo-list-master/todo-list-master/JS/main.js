@@ -49,11 +49,13 @@ function addToDo(event) {
         // check btn;
         const checked = document.createElement('button');
         checked.innerHTML = '<i class="fas fa-check"></i>';
+        checked.setAttribute('aria-label', 'Mark task as completed');
         checked.classList.add('check-btn', `${savedTheme}-button`);
         toDoDiv.appendChild(checked);
         // delete btn;
         const deleted = document.createElement('button');
         deleted.innerHTML = '<i class="fas fa-trash"></i>';
+        deleted.setAttribute('aria-label', 'Delete task');
         deleted.classList.add('delete-btn', `${savedTheme}-button`);
         toDoDiv.appendChild(deleted);
 
@@ -139,11 +141,13 @@ function getTodos() {
         // check btn;
         const checked = document.createElement('button');
         checked.innerHTML = '<i class="fas fa-check"></i>';
+        checked.setAttribute('aria-label', 'Mark task as completed');
         checked.classList.add("check-btn", `${savedTheme}-button`);
         toDoDiv.appendChild(checked);
         // delete btn;
         const deleted = document.createElement('button');
         deleted.innerHTML = '<i class="fas fa-trash"></i>';
+        deleted.setAttribute('aria-label', 'Delete task');
         deleted.classList.add("delete-btn", `${savedTheme}-button`);
         toDoDiv.appendChild(deleted);
 

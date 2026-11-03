@@ -168,10 +168,10 @@ function removeLocalTodos(todo){
         todos = JSON.parse(localStorage.getItem('todos'));
     }
 
-    const todoIndex =  todos.indexOf(todo.children[0].innerText);
-    // console.log(todoIndex);
+    const todoIndex = todos.indexOf(todo.children[0].innerText);
+    // Avoid removing the last saved task when the clicked task is not found.
+    if (todoIndex === -1) return;
     todos.splice(todoIndex, 1);
-    // console.log(todos);
     localStorage.setItem('todos', JSON.stringify(todos));
 }
 

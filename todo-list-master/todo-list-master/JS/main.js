@@ -71,8 +71,9 @@ function addToDo(event) {
 
 function deletecheck(event){
 
-    // console.log(event.target);
-    const item = event.target;
+    // Clicks on an icon should trigger its containing action button too.
+    const item = event.target.closest('button');
+    if (!item || !toDoList.contains(item)) return;
 
     // delete
     if(item.classList[0] === 'delete-btn')

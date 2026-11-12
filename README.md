@@ -106,7 +106,7 @@ To-Do-list/
 
 **Note:** Saved tasks are stored in the current browser's Local Storage, not in an online database. They are not automatically synchronized across devices.
 
-**Current limitation:** Only task text is saved. Completed/checkmark status is not stored, so completed tasks appear unchecked after a page reload.
+**Task persistence:** Each task's text, unique ID, and completion status are saved in Local Storage. Completion state is restored after a reload. Existing tasks saved in the earlier string-only format are migrated automatically with an incomplete status.
 
 ## 🧹 Resetting Saved Data
 
